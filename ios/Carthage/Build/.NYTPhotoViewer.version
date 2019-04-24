@@ -1,0 +1,13 @@
+{
+  "commitish" : "2.0.0",
+  "iOS" : [
+    {
+      "name" : "NYTPhotoViewer",
+      "hash" : "15d4fbb2593ebc0c04119769f2bcae173733e3eea221ee94952a3bd3119cce89"
+    },
+    {
+      "name" : "NYTPhotoViewerCore",
+      "hash" : "c90ab23d02db4d692c58ab3c68b52ea400386f45839a0e46e2e49a1574c5023a"
+    }
+  ]
+}
