@@ -126,12 +126,4 @@ public class MerryPhotoViewManager extends SimpleViewManager<MerryPhotoView> {
     public void setHideCloseButton(MerryPhotoView merryPhotoView, Boolean prop) {
         merryPhotoView.setHideCloseButton(prop);
     }
-
-    @Nullable
-    @Override
-    public Map<String, Object> getExportedCustomDirectEventTypeConstants() {
-        return MapBuilder.<String, Object>builder()
-                .put("onChange", MapBuilder.of("registrationName", "onChange"))
-                .put("onDismiss", MapBuilder.of("registrationName", "onDismiss")).build();
-    }
 }
